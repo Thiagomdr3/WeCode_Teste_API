@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioWebCode.api</name>
+    </assembly>
+    <members>
+        <member name="T:DesafioWebCode.api.Controllers.AssistidosController">
+            <summary>
+            Classe controller de assistidos
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.#ctor(DesafioWebCode.api.Data.Context_Db)">
+            <summary>
+            Context de assistidos
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.GetAssistidos">
+            <summary>
+            Lista todos os assistidos.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.GetAssistidos(System.Int32)">
+            <summary>
+            Localiza um assistido pelo Id.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.PutAssistidos(System.Int32,DesafioWebCode.api.Models.Assistidos)">
+            <summary>
+            Atualiza o assistido pelo id.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.PostAssistidos(DesafioWebCode.api.Models.Assistidos)">
+            <summary>
+            Inclui um novo assistido.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.DeleteAssistidos(System.Int32)">
+            <summary>
+            Apaga o filme pelo id.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.FilmesAssistidos(System.Int32)">
+            <summary>
+            Lista a quantidade de pessoas por filme pelo Id do filme.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.AssistidosController.PessoasAssistidos(System.Int32)">
+            <summary>
+            Lista a quantidade de filmes por pessoas pelo Id da pessoa.
+            </summary>
+        </member>
+        <member name="T:DesafioWebCode.api.Controllers.FilmesController">
+            <summary>
+            classe Controller de filmes
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.FilmesController.#ctor(DesafioWebCode.api.Data.Context_Db)">
+            <summary>
+            Context da class controller filmes
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.FilmesController.GetFilmes">
+            <summary>
+            Lista todos os filmes.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.FilmesController.GetFilmes(System.Int32)">
+            <summary>
+            Localiza um filme pelo id.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.FilmesController.PutFilmes(System.Int32,DesafioWebCode.api.Models.Filmes)">
+            <summary>
+            Atualiza o filme pelo id.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.FilmesController.PostFilmes(DesafioWebCode.api.Models.Filmes)">
+            <summary>
+            Inclui novo filme.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.FilmesController.DeleteFilmes(System.Int32)">
+            <summary>
+            Apaga o filme pelo id.
+            </summary>
+        </member>
+        <member name="T:DesafioWebCode.api.Controllers.PessoasController">
+            <summary>
+            class controller de pessoas
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.PessoasController.#ctor(DesafioWebCode.api.Data.Context_Db)">
+            <summary>
+            context da classe controller de pessoas
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.PessoasController.GetPessoas">
+            <summary>
+            Lista todos as pessoas.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.PessoasController.GetPessoas(System.Int32)">
+            <summary>
+            Localiza uma pessoa pelo id.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.PessoasController.PutPessoas(System.Int32,DesafioWebCode.api.Models.Pessoas)">
+            <summary>
+            Altera uma pessoa pelo id.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.PessoasController.PostPessoas(DesafioWebCode.api.Models.Pessoas)">
+            <summary>
+            Inclui uma pessoa.
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Controllers.PessoasController.DeletePessoas(System.Int32)">
+            <summary>
+            Apaga uma pessoa pelo id.
+            </summary>
+        </member>
+        <member name="T:DesafioWebCode.api.Exceptions.FilmeException">
+            <summary>
+            Exception de tentativa de cadastramento de filme repetido
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Exceptions.FilmeException.#ctor">
+            <summary>
+            Tentativa de cadastrar filme repetido
+            </summary>
+        </member>
+        <member name="T:DesafioWebCode.api.Exceptions.PessoaException">
+            <summary>
+            Exception de tentativa de cadastramento de pessoa repetida
+            </summary>
+        </member>
+        <member name="M:DesafioWebCode.api.Exceptions.PessoaException.#ctor">
+            <summary>
+            Tentativa de cadastramento de pessoa repetida
+            </summary>
+        </member>
+    </members>
+</doc>
