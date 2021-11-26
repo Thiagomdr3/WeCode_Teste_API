@@ -52,15 +52,15 @@
 
 ## Screenshots
 
-<img src="img\Assistidos.png">
+<img src="img\Assistidos.PNG">
 
 ------
 
-<img src="img\Filmes.png">
+<img src="img\Filmes.PNG">
 
 ------
 
-<img src="img\Pessoas.png">
+<img src="img\Pessoas.PNG">
 
 
 
