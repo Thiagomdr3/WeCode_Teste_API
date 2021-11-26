@@ -52,19 +52,19 @@
 
 ## Screenshots
 
-<img src="img\1.png">
+<img src="img\Assistidos.png">
 
 ------
 
-<img src="img\2.png">
+<img src="img\Filmes.png">
 
 ------
 
-<img src="img\3.png">
+<img src="img\Pessoas.png">
 
 
 
-Link da API em execução >> <a href="https://wecode-api.azurewebsites.net/swagger/index.html">WeDecode</a>
+Link da API em execução >> <a href="http://devtech2021.ddns.net:81/swagger/index.html">WeDecode</a>
 
 
 
