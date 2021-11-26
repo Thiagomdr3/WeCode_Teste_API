@@ -13,7 +13,7 @@ namespace DesafioWebCode.api.Controllers
     /// <summary>
     /// Classe controller de assistidos
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("assistidos")]
     [ApiController]
     public class AssistidosController : ControllerBase
     {

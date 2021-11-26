@@ -13,7 +13,7 @@ namespace DesafioWebCode.api.Controllers
     /// <summary>
     /// classe Controller de filmes
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("filmes")]
     [ApiController]
     public class FilmesController : ControllerBase
     {

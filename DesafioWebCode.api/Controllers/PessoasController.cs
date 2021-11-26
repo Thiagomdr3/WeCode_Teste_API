@@ -13,7 +13,7 @@ namespace DesafioWebCode.api.Controllers
     /// <summary>
     /// class controller de pessoas
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("pessoas")]
     [ApiController]
     public class PessoasController : ControllerBase
     {
